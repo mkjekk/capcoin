@@ -16,7 +16,8 @@
     "changelog": "rm CHANGELOG.md && changelog https://github.com/sebs/capcoin all > CHANGELOG.md && git add . && git commit . -m changelog",
     "postversion": "git push && git push --tags && npm run changelog && git push ",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -52,9 +53,9 @@
     "marked-man": "^0.2.1",
     "marked-terminal": "^2.0.0",
     "mocha": "^3.2.0",
-    "restify-clients": "^1.5.0",
+    "restify-clients": "^2.0.0",
     "socket.io-client": "^2.0.3",
-    "snyk": "^1.41.1"
+    "snyk": "^1.88.0"
   },
   "snyk": true
 }
