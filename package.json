@@ -52,7 +52,7 @@
     "marked-man": "^0.2.1",
     "marked-terminal": "^2.0.0",
     "mocha": "^3.2.0",
-    "restify-clients": "^1.5.0",
+    "restify-clients": "^2.6.5",
     "socket.io-client": "^2.0.3",
     "snyk": "^1.41.1"
   },
