@@ -45,7 +45,7 @@
     "blessed-contrib": "^4.7.5",
     "child-process-promise": "^2.2.0",
     "cli-table2": "^0.2.0",
-    "commander": "^2.11.0",
+    "commander": "^4.1.1",
     "jshint": "^2.9.5",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
