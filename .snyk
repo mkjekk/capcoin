@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.25.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:cli:20160615':
@@ -38,3 +38,8 @@ patch:
   'npm:debug:20170905':
     - mocha > debug:
         patched: '2017-09-27T11:07:40.103Z'
+  'npm:lodash:20180130':
+    - cli-table2 > lodash:
+        patched: '2024-05-19T06:05:36.862Z'
+        id: 'npm:lodash:20180130'
+        path: cli-table2 > lodash
